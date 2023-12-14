@@ -251,7 +251,7 @@ h6 {
   position: relative; }
   #showcase:before {
     content: '';
-    background: url("/dist/img/featured.jpg") no-repeat center center/cover;
+    background: url(https://i.ibb.co/NYkYLj1/featured.jpg) no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
