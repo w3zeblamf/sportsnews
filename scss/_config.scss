@@ -1,0 +1,215 @@
+//Variables
+
+//Base
+$website-width: 1100px;
+//Colors
+$primary-color: #8BC34A;
+$light-color: #f3f3f3;
+$white-color: #ffffff;
+$dark-color: #222;
+//Fonts
+$body-font: 'Lato', sans-serif;
+$text-font: 'Staatliches', cursive;
+$news-font: 'Courgette', cursive;
+// Category
+$sports-color: #0097A7;
+
+
+// EO Variables
+
+// Utility style
+
+/* Container */
+
+.container {
+	max-width: $website-width;
+	margin: auto;
+	padding: 0 2rem;
+	overflow: hidden;
+}
+/* Categories */
+.category {
+	display: inline-block;
+	color: $white-color;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	padding: 0.4rem 0.6rem;
+	border-radius: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.category-sports {
+	background: $sports-color;
+}
+.category-sports-2 {
+	background: $dark-color;
+}
+
+/* Buttons */
+.btn {
+	display: inline-block;
+	border:none;
+	border-radius: 0.5rem;
+	background: $dark-color;
+	color: $white-color;
+	padding: 0.5rem 1.5rem;
+
+	&:hover {
+		opacity: 0.9;
+	}
+}
+
+.btn-light {
+	background: $light-color;
+}
+
+.btn-primary {
+	background: $primary-color;
+	color: $dark-color;
+}
+
+.btn-secondary {
+	background: $sports-color;
+}
+
+.btn-block {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+//Card
+.card {
+	background: $white-color;
+	border-radius: 0.5rem;
+	padding: 1rem;
+
+	img {
+		border-radius: 0.5rem;
+	}
+}
+
+/* Background */
+.bg-dark {
+	background: $dark-color;
+	color: $white-color;
+}
+
+.bg-primary {
+	background:$primary-color;
+	color:$white-color;
+}
+
+.bg-secondary {
+	background: $sports-color;
+	color: $white-color;
+}
+
+.bg-dark {
+	h1 {
+		color: $white-color;
+	}
+	h2 {
+		color: $white-color;
+	}
+	h3 {
+		color: $white-color;
+	}
+	a {
+		color: $white-color;
+	}
+}
+
+.bg-primary {
+	h1 {
+		color: $white-color;
+	}
+	h2 {
+		color: $white-color;
+	}
+	h3 {
+		color: $white-color;
+	}
+	a {
+		color: $white-color;
+	}
+}
+
+.bg-secondary {
+	h1 {
+		color: $white-color;
+	}
+	h2 {
+		color: $white-color;
+	}
+	h3 {
+		color: $white-color;
+	}
+	a {
+		color: $white-color;
+	}
+}
+
+
+/* Vertical Padding */
+.py-1 {
+	padding: 1.5rem 0
+}
+
+.py-2 {
+	padding: 2rem 0
+}
+
+.py-3 {
+	padding: 3rem 0
+}
+
+/* Padding all the way around */
+.p-1 {
+	padding: 1.3rem 0
+}
+
+.p-2 {
+	padding: 2rem 0
+}
+
+.p-3 {
+	padding: 3rem 0
+}
+
+.l-heading {
+  font-size: 3rem;
+}
+
+/* List */
+.list {
+	li {
+		padding: .5rem 0;
+		border-bottom: #555 dotted 1px;
+		width: 90%;
+		a {
+			&:hover {
+				color: $primary-color !important;
+			}
+		}
+
+		i {
+			margin-left: 0.5rem;
+		}
+	}
+}
+
+/* About Page */
+/* Inner page grid container */
+.page-container {
+	display: grid;
+	grid-template-columns: 5fr 2fr;
+	margin: 2rem 0;
+	grid-gap: 1.5rem;
+
+	> *:first-child {
+		grid-row: 1 / span 3;
+	}
+}
+/* EO About Page */
+
+// EO Utility style
