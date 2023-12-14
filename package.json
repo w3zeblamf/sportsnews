@@ -1,0 +1,14 @@
+{
+	"name": "newsgrid-website-with-sass",
+	"version": "1.0.0",
+	"description": "News Website using grid-sass",
+	"main": "index.js",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css/ --recursive"
+	},
+	"author": "Albez Figueroa",
+	"license": "ISC",
+	"devDependencies": {
+		"node-sass": "^9.0.0"
+	}
+}
