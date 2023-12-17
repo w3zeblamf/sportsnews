@@ -309,6 +309,8 @@ h6 {
     grid-gap: 1rem;
     align-items: center;
     grid-column: 2 / span 2; }
+  #home-articles .articles-container .card i {
+    color: #8BC34A; }
 
 #article .meta {
   display: flex;

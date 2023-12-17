@@ -223,6 +223,12 @@ h6 {
 				grid-column: 2 / span 2;
 			}
 		}
+
+		.card {
+			i {
+				color: $primary-color;
+			}
+		}
 	}
 }
 // EO Home Articles
